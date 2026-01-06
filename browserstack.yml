@@ -1,0 +1,46 @@
+# ---- Legacy schema (works with runners that expect camelCase) ----
+userName: "nadaalbahri_uRDG1r"
+accessKey: "NPHxeRJr4p6BBdvb1p5j"
+
+# optional but useful
+projectName: "TajawobAutomations"
+buildName: "TajawobAutomations - Real Devices"
+
+testObservability: true
+
+# browserstack.yml (relevant part)
+platforms:
+# macOS + Chrome
+  - os: "OS X"
+    osVersion: "Big Sur"
+    browser: "chrome"
+    browserVersion: "latest"
+
+  # Windows + Edge
+  - os: "Windows"
+    osVersion: "10"
+    browser: "edge"
+    browserVersion: "latest"
+
+  # Playwright WebKit (desktop engine)
+  - os: "OS X"
+    osVersion: "Big Sur"
+    browser: "playwright-webkit"
+    browserVersion: "latest"
+
+  # --- Real iOS device (iPhone 14 ) ---
+  - deviceName: "iPhone 14"
+    platformName: "ios"
+    osVersion: "17"        # Use "16" if you specifically need iOS 16
+    realMobile: true
+    browserName: "safari"
+    deviceOrientation: "portrait"
+
+  # --- Real Android device (Pixel 7) ---
+  - deviceName: "Google Pixel 7"
+    platformName: "android"
+    osVersion: "13.0"          # or "14.0" if available in your account
+    realMobile: true
+    browserName: "chrome"
+    deviceOrientation: "portrait"
+

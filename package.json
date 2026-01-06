@@ -1,0 +1,18 @@
+{
+  "name": "tajawobautomation1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:bs": "browserstack-node-sdk playwright test --config=playwright.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1",
+    "browserstack-node-sdk": "^1.45.3"
+  }
+}
