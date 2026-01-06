@@ -2,6 +2,8 @@
 userName: "nadaalbahri_uRDG1r"
 accessKey: "NPHxeRJr4p6BBdvb1p5j"
 
+framework: "playwright"
+
 # optional but useful
 projectName: "TajawobAutomations"
 buildName: "TajawobAutomations - Real Devices"

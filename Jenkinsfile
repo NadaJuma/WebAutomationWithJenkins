@@ -22,7 +22,8 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'npx playwright test'
+                bat 'npx playwright test --config=playwright-browserstack-sdk.config.ts
+'
             }
         }
     }
