@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        nodejs 'NodeJS 22.15.0'
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -10,6 +14,8 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
+                bat 'node -v'
+                bat 'npm -v'
                 bat 'npm install'
             }
         }
@@ -22,8 +28,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'npx playwright test --config=playwright-browserstack-sdk.config.ts
-'
+                bat 'npx browserstack-node-sdk playwright test'
             }
         }
     }

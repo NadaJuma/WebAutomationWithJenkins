@@ -19995,3 +19995,7 @@ for call at
 2026-01-06 14:31:05 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
 2026-01-06 14:31:05 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
 2026-01-06 14:31:05 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 14:52:42 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-01-06 14:52:42 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-01-06 14:52:42 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-01-06 14:52:42 - [32minfo[39m: [GrpcClient] Stopping bin session
