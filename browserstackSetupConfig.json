@@ -1,0 +1,40 @@
+userName: nadaalbahri_uRDG1r
+accessKey: NPHxeRJr4p6BBdvb1p5j
+framework: playwright
+projectName: TajawobAutomations
+buildName: TajawobAutomations - Real Devices
+testObservability: true
+platforms:
+  - os: OS X
+    osVersion: Big Sur
+    browser: chrome
+    browserVersion: latest
+  - os: Windows
+    osVersion: '10'
+    browser: edge
+    browserVersion: latest
+  - os: OS X
+    osVersion: Big Sur
+    browser: playwright-webkit
+    browserVersion: latest
+  - deviceName: iPhone 14
+    platformName: ios
+    osVersion: '17'
+    realMobile: true
+    browserName: safari
+    deviceOrientation: portrait
+  - deviceName: Google Pixel 7
+    platformName: android
+    osVersion: '13.0'
+    realMobile: true
+    browserName: chrome
+    deviceOrientation: portrait
+testContextOptions:
+  skipSessionStatus: false
+  skipSessionName: false
+buildIdentifier: '#15'
+browserstackLocal: false
+logDir: C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\log
+browserStackLocalOptions:
+  skipBinaryInitialisation: false
+proxySettings: {}
