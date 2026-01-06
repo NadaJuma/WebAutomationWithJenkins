@@ -1,6 +1,9 @@
 pipeline {
     agent any
-
+  environment {
+    BROWSERSTACK_USERNAME = credentials('browserstack-username')  
+    BROWSERSTACK_ACCESS_KEY = credentials('browserstack-accesskey')
+  }
     tools {
         nodejs 'NodeJS 22.15.0'
     }
@@ -20,15 +23,15 @@ pipeline {
             }
         }
 
-        stage('Install Playwright Browsers') {
+        stage('Install Playwright') {
             steps {
                 bat 'npx playwright install'
             }
         }
 
-        stage('Run Tests') {
+        stage('Run on BrowserStack') {
             steps {
-                bat 'npx browserstack-node-sdk playwright test'
+                bat 'npx browserstack-node-sdk playwright test --config=playwright.config.ts'
             }
         }
     }

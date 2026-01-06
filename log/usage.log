@@ -19999,3 +19999,990 @@ for call at
 2026-01-06 14:52:42 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
 2026-01-06 14:52:42 - [32minfo[39m: [GrpcClient] Stopping bin session
 2026-01-06 14:52:42 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-01-06 19:43:57 - [32minfo[39m: Reading configs from C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\browserstack.yml
+2026-01-06 19:43:57 - [32minfo[39m: Log Directory has been set to C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\log
+2026-01-06 19:43:57 - [32minfo[39m: Log Directory has been set to C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\log
+2026-01-06 19:43:57 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=playwright.config.ts
+2026-01-06 19:43:57 - [32minfo[39m: SDK run started with id: f74ca149-13d6-47be-b539-b62cb1811d14
+2026-01-06 19:43:57 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-01-06 19:43:57 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=playwright.config.ts
+2026-01-06 19:43:57 - [32minfo[39m: SDK run started with id: f74ca149-13d6-47be-b539-b62cb1811d14
+2026-01-06 19:43:57 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-01-06 19:44:01 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-01-06 19:44:01 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-01-06 19:44:01 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\nadan\.browserstack\cli\binary-win-x64.exe
+2026-01-06 19:44:01 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\nadan\.browserstack\cli\binary-win-x64.exe
+2026-01-06 19:44:04 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\nadan\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-01-06 19:44:04 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\nadan\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-01-06 19:44:05 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"0bf115a8-8eed-4c32-9b3c-f79fcf7fca02","listen":"127.0.0.1:5400","port":"5400"}
+2026-01-06 19:44:05 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"0bf115a8-8eed-4c32-9b3c-f79fcf7fca02","listen":"127.0.0.1:5400","port":"5400"}
+2026-01-06 19:44:05 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:05 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02 and listen address: 127.0.0.1:5400
+2026-01-06 19:44:05 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-01-06 19:44:05 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=playwright.config.ts"], parsedConfig=[]
+2026-01-06 19:44:05 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:05 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02 and listen address: 127.0.0.1:5400
+2026-01-06 19:44:05 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-01-06 19:44:05 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=playwright.config.ts"], parsedConfig=[]
+2026-01-06 19:44:07 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-01-06 19:44:07 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-01-06 19:44:07 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:07 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:07 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:07 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=playwright.config.ts"]
+2026-01-06 19:44:07 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:07 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:07 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:07 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:07 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=playwright.config.ts"]
+2026-01-06 19:44:07 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:12 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:13 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:13 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:15 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:15 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:15 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:15 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:15 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:15 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:15 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:15 - [32minfo[39m: Setting up TestInfo directory at C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\log\.obs_test_details-default
+2026-01-06 19:44:15 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=18180:0, state=TestFrameworkState.INIT_TEST
+2026-01-06 19:44:16 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=9bd3812ede002900ecd86fc96d711b72ee204c54de065e9eaf56bf21a832722b target=18180:0
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:22 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:22 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=11988:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=fc36b367bbacaf8bbea2ff75a03504748bb01ec78ffb2a6908176f7ea8b81572 target=11988:0
+2026-01-06 19:44:23 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"chrome","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=48412:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=cc1fcaaf90edf5134e28f7233b3474161f0a8fe65a109241b3393b78c20a02a4 target=48412:0
+2026-01-06 19:44:23 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"chrome","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=51256:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=048363954315902a0e273434c33ae852c0b411dc69d7b523116bdd799a76b677 target=51256:0
+2026-01-06 19:44:23 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"chrome","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=39732:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=dfddba467d0f559e3b8f065bfec84002aa6e2bf94d1b98580e51988582b39ade target=39732:0
+2026-01-06 19:44:23 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"chrome","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:23 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:23 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=48788:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=c1c71793e37f3c34d2ba499bda89a9200687bf1955ea3b924c16d83c63addb33 target=48788:0
+2026-01-06 19:44:23 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"chrome","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-2f9c7d44b61ea7ff481b
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '405c1e7a-3327-45f9-a869-1d72332720fd' }
+2026-01-06 19:44:25 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightDriverModule] testId: 4b583dfcc6c9ec3b088b-1ce110bb334aaf9376f7
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'ad6d5ba8-fe5f-4807-8912-91755c5d52ff' }
+2026-01-06 19:44:25 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightDriverModule] testId: 492d4a3e7e76c4aacf4a-d6e2e3405dd23696d84f
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'b39a4669-6ab5-4652-b8cc-005039c1f4b5' }
+2026-01-06 19:44:25 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:25 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:25 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:25 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-be063c1e01e0b73f2216
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '3becb6c8-e0c8-4ecd-857a-9f56f570d0ba' }
+2026-01-06 19:44:25 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:25 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightDriverModule] testId: b0639a757ff76b21cdba-f7dedc2f2c870972e98d
+2026-01-06 19:44:25 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'c2e6d551-e50e-4dad-b603-1874f5b58afc' }
+2026-01-06 19:44:25 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:25 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:26 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:26 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:26 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:26 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:26 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:26 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:37 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:37 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=40916:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=bbf2fd45a5fbd0d825801118743de0bf5a4645afdc932abe845f2235a25b6330 target=40916:0
+2026-01-06 19:44:38 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"Windows","os_version":"10","browser":"edge","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=28372:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=bc0af4a3a76a154788af4d2e3975488f847e4f05e14a398591403ece324b545f target=28372:0
+2026-01-06 19:44:38 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"chrome","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:38 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=3588:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=ebd4e4148c3004294be01606db78eed2e700ef32ac732d7afb5a67b45fde60d5 target=3588:0
+2026-01-06 19:44:38 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"Windows","os_version":"10","browser":"edge","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=27536:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=874a34a025fbb6938792adc45977ab465ad3c774484e6f90eabf050f610ac3b5 target=27536:0
+2026-01-06 19:44:38 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"Windows","os_version":"10","browser":"edge","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:38 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=31716:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:38 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=f1391889e9e3cff532ef6afe152ccc0b8343126412c0d63ab7f8d5279a699471 target=31716:0
+2026-01-06 19:44:38 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"Windows","os_version":"10","browser":"edge","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightDriverModule] testId: 492d4a3e7e76c4aacf4a-af1d9df672e667e2b7c3
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'aa13147e-006e-4b54-9f7c-8f57eb643c06' }
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-3eab8d389a04094ac32b
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '7605315a-927d-4155-84e8-a7e6fffdebac' }
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightDriverModule] testId: 4b583dfcc6c9ec3b088b-e9301b46096cb5bf27d5
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'f07c52e1-73b1-469c-b79c-df81a775fc0b' }
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-0f9b11d548551b968073
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '60c985ac-bd08-4d2e-816b-b78104dd41c7' }
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightDriverModule] testId: b0639a757ff76b21cdba-986dbba9de1d5ee2b9ff
+2026-01-06 19:44:41 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'b534868e-a947-4986-8f6f-0858627d27a0' }
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:41 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:41 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:41 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:42 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:42 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:42 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:42 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:50 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:50 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:50 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:50 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:50 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:50 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:50 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:50 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=52252:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=22a34844355c9c5c42c3817ffad388f3c2d9dbe95f9fbd80dc4d0893321e7997 target=52252:0
+2026-01-06 19:44:51 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"playwright-webkit","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=36072:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=8b8299620403faf41b83174b839629a0102c78b74bb3beb233ab0bb2f2dd6952 target=36072:0
+2026-01-06 19:44:51 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"playwright-webkit","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=38480:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=490d91584868f51139cce9a1091fe2b287c3c1f52825324fcf279196af59be1a target=38480:0
+2026-01-06 19:44:51 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"Windows","os_version":"10","browser":"edge","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=42616:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=2ce916a75158cb77067f7077a65351a65aad6fcaf740585905e23cfc9d6215c3 target=42616:0
+2026-01-06 19:44:51 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"Windows","os_version":"10","browser":"edge","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:51 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:44:51 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:44:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=52256:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:44:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=a983061632618d8aad87a5bd88d2971ad59cf8fe72ed2a9d785b11690dc80c28 target=52256:0
+2026-01-06 19:44:51 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"playwright-webkit","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-b5e8fa8e3ed7dc715cad
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '5c7bdf84-b6cd-4f30-a478-6028e99ec37a' }
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:54 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightDriverModule] testId: 492d4a3e7e76c4aacf4a-7b7467500db457061c79
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'aad16b48-499a-4971-8d9d-3572ac4efe5e' }
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-44998600897e8e58c90b
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'ed8b0a42-77d2-4f40-82c9-eec46693eb29' }
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightDriverModule] testId: b0639a757ff76b21cdba-e4c6e084fed9127a4222
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '123f0a6d-92a5-4646-9811-f6d1398137aa' }
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightDriverModule] testId: 4b583dfcc6c9ec3b088b-9f069a83b807a12cf444
+2026-01-06 19:44:54 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '506c530b-c96e-4e62-a763-3440e1aaa658' }
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:44:54 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:03 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:03 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:02 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=18008:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=694f5573cd5b65719021e1845ff0df80dfc9f1d448410104c4c0ae0988988321 target=18008:0
+2026-01-06 19:45:03 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"device":"iPhone 14","platformName":"ios","os_version":"17","real_mobile":true,"deviceOrientation":"portrait","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser":"safari","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:45:03 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:02 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=45264:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=3969bbcf884f58a1e928dc7b73c571bd9d2519d4eb1f65106e9cb8257167f450 target=45264:0
+2026-01-06 19:45:03 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"playwright-webkit","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=27340:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=87840efd569bf7d53898176f9ef24f0f66174d7b3f3729a1d155041ab9cd10d7 target=27340:0
+2026-01-06 19:45:03 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"device":"iPhone 14","platformName":"ios","os_version":"17","real_mobile":true,"deviceOrientation":"portrait","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser":"safari","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:45:02 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=38952:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=d88e315320e9a2eea1576c3299dbab378bf59b5ce1be9eb691a5bc29c0b14648 target=38952:0
+2026-01-06 19:45:03 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"playwright-webkit","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:45:03 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=49508:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=07d67744738ab342ca12d935f32598fc94b840f31365d106a5c45ae63405e3e2 target=49508:0
+2026-01-06 19:45:03 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"os":"OS X","os_version":"Big Sur","browser":"playwright-webkit","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser_version":"latest","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightDriverModule] testId: b0639a757ff76b21cdba-23d313ae7c117a565ed4
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'f9f3dbcd-2a34-498d-b751-8d78625e282d' }
+2026-01-06 19:45:05 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:05 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-7b418105724ac2ce2284
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '92b5cac3-3615-4b1c-a706-ff387aed435e' }
+2026-01-06 19:45:05 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:05 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-6b7993513c951109b8f2
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '81d001f8-30f7-4a5a-8130-54e9d211c720' }
+2026-01-06 19:45:05 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:05 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightDriverModule] testId: 492d4a3e7e76c4aacf4a-64a9195733ac6c2e29eb
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '5f40fd88-7c91-4323-b75a-0ad74246e618' }
+2026-01-06 19:45:05 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-215f815d6fc6166adadc
+2026-01-06 19:45:05 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '022b9fed-4446-46da-9dab-c9299ef0559b' }
+2026-01-06 19:45:05 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:06 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:06 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:06 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:06 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:06 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:12 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=18164:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:12 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=db1b0fa3a0998d524910123036393953a8b148f236fbeb35951cf00e95723c5e target=18164:0
+2026-01-06 19:45:12 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"device":"iPhone 14","platformName":"ios","os_version":"17","real_mobile":true,"deviceOrientation":"portrait","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser":"safari","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:12 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=38524:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:12 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=093bd333fa1b5df8d2e26293be46eaa5d0e48cc31ca0580adf88d4cb757c5093 target=38524:0
+2026-01-06 19:45:12 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"device":"iPhone 14","platformName":"ios","os_version":"17","real_mobile":true,"deviceOrientation":"portrait","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser":"safari","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:12 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:12 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=3556:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:12 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=4c2dd9c1e29f769f99076060411337d24ededaf8a5f615d4cd5de6a1e1732ff0 target=3556:0
+2026-01-06 19:45:12 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"device":"iPhone 14","platformName":"ios","os_version":"17","real_mobile":true,"deviceOrientation":"portrait","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser":"safari","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:12 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=41936:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:12 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=1c7013fbfb8bd6014d0263580ef7fa323daee54b2e52e3cd951e43134c0d354c target=41936:0
+2026-01-06 19:45:12 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:12 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=15432:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:12 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=90c59dd7500ed694cf7efb6a588603aa31dc95ac6679a744a1502b689cc61141 target=15432:0
+2026-01-06 19:45:12 - [32minfo[39m: Processed accessibility caps false {"browserstack.user":"nadaalbahri_uRDG1r","browserstack.key":"NPHxeRJr4p6BBdvb1p5j","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#12","turboScaleOptions":{},"device":"iPhone 14","platformName":"ios","os_version":"17","real_mobile":true,"deviceOrientation":"portrait","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.45.3","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser":"safari","browserstack.testhubBuildUuid":"ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis","browserstack.local":false,"browserstack.localIdentifier":null} 
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-ddd34da7163bf4412527
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'a09ef34e-f85c-4bab-8898-5faa3a7c307e' }
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightDriverModule] testId: 492d4a3e7e76c4aacf4a-980ada7b6d47f545026c
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '8b1fc8ef-1436-40d3-a95c-bb89e22e4f7f' }
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:15 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-17e25844ab6d05fe96e7
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'b5ba752f-7194-40a0-95f5-1fc642b891d7' }
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-776e6913641865ead619
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'e05fffbf-8a8d-46d3-a955-a57c02b1f747' }
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:15 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightDriverModule] testId: 4b583dfcc6c9ec3b088b-8bb321dcf3facff6c5cb
+2026-01-06 19:45:15 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '8e8e2785-fa65-4e2f-a59c-7c07ea9271fa' }
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:15 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:22 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=36608:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:22 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=0496fb0a54ad9faac53d0e79330464baa6269ace57638ad034e16248675505ee target=36608:0
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:22 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=36664:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:22 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=e50640aeee3bebd18c2093cd5764339a9f146e5aad0129c021ca7e2ebcb1d12c target=36664:0
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:22 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=35724:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:22 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=a694dc31791d739329554d7e75a1476d5820b6073e2d7fe107de8ba193e807fc target=35724:0
+2026-01-06 19:45:23 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:23 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:45:23 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:45:23 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:45:23 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:45:23 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:23 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:45:23 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:45:23 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2026-01-06 19:45:23 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2026-01-06 19:45:22 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=20708:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=ff1210125e120075f409c8a09c219bb1da53538199dab660240c99aab1ebba38 target=20708:0
+2026-01-06 19:45:23 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:23 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0bf115a8-8eed-4c32-9b3c-f79fcf7fca02
+2026-01-06 19:45:23 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:23 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2026-01-06 19:45:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=28152:0, state=AutomationFrameworkState.CREATE
+2026-01-06 19:45:23 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=eba85a2d020c00a6716a3d0364d10c9f8f26f6bab8bcec921e2aa55724d32069 target=28152:0
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-e366319d8983aba9b754
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '6f97de39-d6d8-4a5a-b4e1-cb3228d6dd2e' }
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:25 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightDriverModule] testId: 4b583dfcc6c9ec3b088b-a14bbcaa370f37687c48
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '60ad689c-8b9d-497b-8d1b-1656a097ca07' }
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:25 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightDriverModule] testId: b0639a757ff76b21cdba-9f686829a26c20e6bb43
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: 'd7845378-8d68-47f9-a1f0-a37d4f78a866' }
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:25 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-4442bb6b03085f93cb34
+2026-01-06 19:45:25 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '3e36a0b3-6897-49d4-9612-0adce58d6392' }
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:25 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:25 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:45:26 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2026-01-06 19:45:26 - [32minfo[39m: [PlaywrightDriverModule] testId: e36f1d94e6ab19bad2b8-4e1b00882a391e607749
+2026-01-06 19:45:26 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: { uuid: '184e03ec-3e97-40e4-8371-b4b37bb62d8c' }
+2026-01-06 19:45:26 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2026-01-06 19:45:26 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2026-01-06 19:45:26 - [32minfo[39m: getting screenshots results.
+2026-01-06 19:45:26 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2026-01-06 19:45:26 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2026-01-06 19:45:26 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2026-01-06 19:45:26 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-06 19:46:07 - [32minfo[39m: Shutdown triggered by SIGINT
+2026-01-06 19:46:07 - [32minfo[39m: Shutdown triggered by SIGINT
+2026-01-06 19:46:07 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-01-06 19:46:07 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-01-06 19:46:07 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-01-06 19:46:07 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-01-06 19:46:08 - [31merror[39m: [GrpcClient] StopBinSession error: 14 UNAVAILABLE: read ECONNRESET
+2026-01-06 19:46:08 - [31merror[39m: [GrpcClient] StopBinSession error: 14 UNAVAILABLE: read ECONNRESET
+2026-01-06 19:46:08 - [32minfo[39m: stop: stopBinSession build_link=null hashed_id=null o11y_uuid=ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis
+2026-01-06 19:46:08 - [31merror[39m: [GrpcClient] Error in stopBinSession: Error: 14 UNAVAILABLE: read ECONNRESET
+    at callErrorFromStatus (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\call.js:32:19)
+    at Object.onReceiveStatus (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\client.js:193:76)
+    at Object.onReceiveStatus (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:367:141)
+    at Object.onReceiveStatus (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:327:181)
+    at C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\resolving-call.js:135:78
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\client.js:161:32)
+    at ServiceClientImpl.stopBinSession (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+    at _0x33446d (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:15519)
+    at new Promise (<anonymous>)
+    at GrpcClient.stopBinSession (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:15246)
+    at BrowserstackCLI.stop (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:15878)
+    at BrowserStackSetup.intExitHandler (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:24984)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 14,
+  details: 'read ECONNRESET',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-01-06 19:46:08 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-01-06 19:46:08 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-01-06 19:46:08 - [31merror[39m: [GrpcClient] Error in stopBinSession: Error: 14 UNAVAILABLE: read ECONNRESET
+    at callErrorFromStatus (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\call.js:32:19)
+    at Object.onReceiveStatus (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\client.js:193:76)
+    at Object.onReceiveStatus (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:367:141)
+    at Object.onReceiveStatus (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:327:181)
+    at C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\resolving-call.js:135:78
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\client.js:161:32)
+    at ServiceClientImpl.stopBinSession (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+    at _0x33446d (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:15519)
+    at new Promise (<anonymous>)
+    at GrpcClient.stopBinSession (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:15246)
+    at BrowserstackCLI.stop (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:15878)
+    at BrowserStackSetup.intExitHandler (C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:24984)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  code: 14,
+  details: 'read ECONNRESET',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-01-06 19:46:08 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-01-06 19:46:08 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-01-06 19:46:13 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-01-06 19:46:13 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-01-06 19:46:16 - [33mwarn[39m: [BrowserstackCLI] stop: process exit timeout, forcing kill
+2026-01-06 19:46:16 - [33mwarn[39m: [BrowserstackCLI] stop: process exit timeout, forcing kill
+2026-01-06 19:46:25 - [32minfo[39m: Reading configs from C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\browserstack.yml
+2026-01-06 19:46:25 - [32minfo[39m: Log Directory has been set to C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\log
+2026-01-06 19:46:25 - [32minfo[39m: Log Directory has been set to C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\log
+2026-01-06 19:46:25 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=playwright-browserstack-sdk.config.ts
+2026-01-06 19:46:25 - [32minfo[39m: SDK run started with id: a574eb01-7710-4621-aa72-249571e524f3
+2026-01-06 19:46:25 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-01-06 19:46:25 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=playwright-browserstack-sdk.config.ts
+2026-01-06 19:46:25 - [32minfo[39m: SDK run started with id: a574eb01-7710-4621-aa72-249571e524f3
+2026-01-06 19:46:25 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-01-06 19:46:28 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-01-06 19:46:28 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-01-06 19:46:28 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\nadan\.browserstack\cli\binary-win-x64.exe
+2026-01-06 19:46:28 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\nadan\.browserstack\cli\binary-win-x64.exe
+2026-01-06 19:46:33 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\nadan\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-01-06 19:46:33 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\nadan\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-01-06 19:46:35 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"0fa5dd36-d703-4633-b906-8d247060dd7b","listen":"127.0.0.1:5400","port":"5400"}
+2026-01-06 19:46:35 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"0fa5dd36-d703-4633-b906-8d247060dd7b","listen":"127.0.0.1:5400","port":"5400"}
+2026-01-06 19:46:35 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:46:35 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 0fa5dd36-d703-4633-b906-8d247060dd7b and listen address: 127.0.0.1:5400
+2026-01-06 19:46:35 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-01-06 19:46:35 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=playwright-browserstack-sdk.config.ts"], parsedConfig=[]
+2026-01-06 19:46:35 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:46:35 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 0fa5dd36-d703-4633-b906-8d247060dd7b and listen address: 127.0.0.1:5400
+2026-01-06 19:46:35 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-01-06 19:46:35 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=playwright-browserstack-sdk.config.ts"], parsedConfig=[]
+2026-01-06 19:46:36 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-01-06 19:46:36 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-01-06 19:46:36 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:46:36 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0fa5dd36-d703-4633-b906-8d247060dd7b
+2026-01-06 19:46:36 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:46:36 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=playwright-browserstack-sdk.config.ts"]
+2026-01-06 19:46:36 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:46:36 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:46:36 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0fa5dd36-d703-4633-b906-8d247060dd7b
+2026-01-06 19:46:36 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:46:36 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=playwright-browserstack-sdk.config.ts"]
+2026-01-06 19:46:36 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:46:50 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 0fa5dd36-d703-4633-b906-8d247060dd7b
+2026-01-06 19:46:50 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-06 19:46:51 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-06 19:46:54 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-06 19:46:54 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-06 19:46:54 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=0fa5dd36-d703-4633-b906-8d247060dd7b
+2026-01-06 19:46:54 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-06 19:46:54 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-06 19:46:54 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-01-06 19:46:54 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-01-06 19:46:54 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-01-06 19:46:54 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-01-06 19:46:59 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2026-01-06 19:46:59 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2026-01-06 19:46:59 - [32minfo[39m: stop: stopBinSession build_link=null hashed_id=null o11y_uuid=afqndcdsoyl4bfj8n4asbun9twlmpsjumehubfud
+2026-01-06 19:46:59 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-01-06 19:46:59 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-01-06 19:46:59 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-01-06 19:46:59 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-01-06 19:47:04 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-01-06 19:47:04 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-01-06 19:47:05 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2026-01-06 19:47:05 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2026-01-06 19:47:05 - [32minfo[39m: Visit https://automation.browserstack.com/builds/afqndcdsoyl4bfj8n4asbun9twlmpsjumehubfud to view build report, insights, and many more debugging information all at one place!
+
+2026-01-06 19:47:06 - [32minfo[39m: SDK run ended for id: a574eb01-7710-4621-aa72-249571e524f3, testhub id: afqndcdsoyl4bfj8n4asbun9twlmpsjumehubfud
+2026-01-06 19:47:06 - [32minfo[39m: SDK run ended for id: a574eb01-7710-4621-aa72-249571e524f3, testhub id: afqndcdsoyl4bfj8n4asbun9twlmpsjumehubfud
+2026-01-06 19:47:20 - [32minfo[39m: Deleting C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\playwright-browserstack-sdk.config.ts
+2026-01-06 19:47:20 - [32minfo[39m: Deleting C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\playwright-browserstack-sdk.config.ts
+2026-01-06 19:47:21 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-01-06 19:47:21 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
