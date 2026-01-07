@@ -24290,3 +24290,7 @@ for call at
 2026-01-06 20:16:46 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
 2026-01-06 20:16:46 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
 2026-01-06 20:16:46 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2026-01-07 10:31:28 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-01-07 10:31:28 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-01-07 10:31:28 - [32minfo[39m: Visit https://automation.browserstack.com/builds/ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis to view build report, insights, and many more debugging information all at one place!
+

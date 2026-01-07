@@ -10135,3 +10135,202 @@
     }
   }
 } to 34812:0
+2026-01-06T16:16:46.617Z CLI debug  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Not Needed to write this in file sdk:cli:testFrameworkEvent {"name":"sdk:cli:testFrameworkEvent","entryType":"measure","startTime":23121.06200027466,"duration":69836.47059965134,"detail":null,"success":true,"failure":null,"worker":34812}
+2026-01-06T16:16:47.516Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Response from https://collector-observability.browserstack.com/api/v2/builds/ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c/batch: 200 OK
+2026-01-06T16:16:47.517Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Completed queued request: POST api/v2/builds/ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c/batch
+2026-01-06T16:16:47.517Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Response from undefined: 200
+2026-01-06T16:16:47.518Z CLI debug [testhub:request-queue-handler]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Interval-Queue event successful for events 'CBTSessionCreated':01ecd632-ba1c-4c82-84e8-cf23fdce20a9,'LogCreated':undefined,'TestRunFinished':01ecd632-ba1c-4c82-84e8-cf23fdce20a9,'CBTSessionCreated':261c25af-415a-4fde-829e-e1d4ede053a5,'LogCreated':undefined,'TestRunFinished':261c25af-415a-4fde-829e-e1d4ede053a5,'CBTSessionCreated':ff6a58b7-e7da-43b3-a02e-812f57c65f5d,'LogCreated':undefined,'TestRunFinished':ff6a58b7-e7da-43b3-a02e-812f57c65f5d,'CBTSessionCreated':7fdd977b-9957-45e5-b606-3677faa07e26,'LogCreated':undefined,'TestRunFinished':7fdd977b-9957-45e5-b606-3677faa07e26 -- {"success":true}
+2026-01-06T16:16:47.518Z CLI verbose [testhub:request-queue-handler]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Remaining Queue Length - 3
+2026-01-06T16:16:47.518Z CLI debug  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c/batch","entryType":"measure","startTime":24499.666100025177,"duration":69363.76950025558,"detail":null,"success":true,"failure":null,"worker":34812}
+2026-01-06T16:16:48.501Z CLI verbose [testhub:request-queue-handler]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Processing events. Queue Length - 3
+2026-01-06T16:16:48.502Z CLI info [testhub:request-queue-handler]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'd65acaea-1886-43f6-b980-f7c04e3da178',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'd65acaea-1886-43f6-b980-f7c04e3da178',
+      name: 'Complaint submission for nada3',
+      body: [Object],
+      identifier: 'Complaint submission for nada3',
+      scope: 'Complaint submission for nada3',
+      scopes: [Array],
+      custom_metadata: {},
+      file_name: 'tests\\test-4.spec.ts',
+      vc_filepath: 'tests\\test-4.spec.ts',
+      location: 'tests\\test-4.spec.ts',
+      result: 'failed',
+      duration_in_ms: 232,
+      started_at: '2026-01-06T16:16:42.971Z',
+      finished_at: '2026-01-06T16:16:43.203Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 34812:0
+2026-01-06T16:16:48.503Z CLI debug [testhub:request-queue-handler]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Processing batch events for Interval-Queue. Request Size - 7231 bytes. Events are 'CBTSessionCreated':d65acaea-1886-43f6-b980-f7c04e3da178,'LogCreated':undefined,'TestRunFinished':d65acaea-1886-43f6-b980-f7c04e3da178
+2026-01-06T16:16:48.504Z CLI debug [testhub:request-queue-handler]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Event Batch [{"event_type":"CBTSessionCreated","test_run":{"uuid":"d65acaea-1886-43f6-b980-f7c04e3da178","integrations":{"browserstack":{"product":"automate","capabilities":{"browserstack.user":"[REDACTED]","browserstack.key":"[REDACTED]","project":"TajawobAutomations","build":"TajawobAutomations - Real Devices","browserstack.buildIdentifier":"#15","turboScaleOptions":{},"device":"Google Pixel 7","platformName":"android","os_version":"13.0","real_mobile":true,"deviceOrientation":"portrait","browserstack.hostName":"DESKTOP-RAL6K7G","browserstack.browserstackSDK":"Playwright-nodeagent/1.48.1","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"turboscale":false,"central_scanner":false,"lts":false},"browserstack.use_w3c":false,"browser":"chrome","browserstack.testhubBuildUuid":"ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c","browserstack.local":false,"browserstack.localIdentifier":null},"platform":"android","platform_version":"13.0","browser":"chrome"}}}},{"event_type":"LogCreated","logs":[{"testFrameworkName":"Playwright","testFrameworkVersion":"1.56.1","testFrameworkState":"TEST","timestamp":"2026-01-06T16:16:46.519Z","uuid":"d65acaea-1886-43f6-b980-f7c04e3da178","kind":"TEST_STEP","message":"Fixture \"browser\"","level":"passed","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","attachmentType":"","test_run_uuid":"d65acaea-1886-43f6-b980-f7c04e3da178"},{"testFrameworkName":"Playwright","testFrameworkVersion":"1.56.1","testFrameworkState":"TEST","timestamp":"2026-01-06T16:16:46.524Z","uuid":"d65acaea-1886-43f6-b980-f7c04e3da178","kind":"TEST_STEP","message":"Fixture \"__browserstack_workerHook\"","level":"passed","fileName":"","fileSize":{"low":0,"high":0,"unsigned":false},"filePath":"","attachmentType":"","duration":10,"test_run_uuid":"d65acaea-1886-43f6-b980-f7c04e3da178"}]},{"event_type":"TestRunFinished","logs":[],"test_run":{"type":"test","framework":"Playwright","uuid":"d65acaea-1886-43f6-b980-f7c04e3da178","name":"Complaint submission for nada3","body":{"lang":"javascript","code":"async ({\n      page\n    }) => {\n      await page.goto('https://stg.tajawob.om/p/home');\n\n      // Ensure app is in English (inline, no separate function)\n      const englishBtn = page.getByRole('button', {\n        name: 'English',\n        exact: true\n      });\n\n      // Wait briefly for it to exist; ignore if it never shows up\n      await englishBtn.waitFor({\n        state: 'attached',\n        timeout: 3000\n      }).catch(() => {});\n\n      // If visible, click and verify language switched via a stable EN-only element\n      if (await englishBtn.isVisible().catch(() => false)) {\n        await englishBtn.click();\n\n        // Prefer a concrete UI signal that indicates English is active:\n        await (0, _test.expect)(page.getByRole('menuitem', {\n          name: 'Home'\n        })).toBeVisible({\n          timeout: 5000\n        });\n        // If your app doesn’t have that, you can check <html lang=\"en\"> as a fallback:\n        // await expect.poll(async () => (await page.evaluate(() => document.documentElement.lang || '')).toLowerCase().startsWith('en')).toBe(true);\n      }\n      const loginOld = page.getByRole('button', {\n        name: 'Login OLD'\n      });\n      // ensure present, scroll into view (works for web & mobile), then click\n\n      await loginOld.scrollIntoViewIfNeeded();\n      await page.waitForTimeout(80); // brief settle for layout/keyboard\n      await loginOld.click({\n        timeout: 15000\n      });\n\n      /* await page.getByRole('button', { name: 'Login OLD' }).click(); */\n      await page.getByRole('textbox', {\n        name: 'Username'\n      }).fill(user.username);\n      await page.getByRole('textbox', {\n        name: 'Password'\n      }).fill(user.password);\n      await page.getByRole('button', {\n        name: 'Sign in',\n        exact: true\n      }).click();\n      const MyComplaint = page.getByRole('button', {\n        name: 'My Complaints'\n      });\n      await MyComplaint.scrollIntoViewIfNeeded();\n      await page.waitForTimeout(80);\n      await MyComplaint.click();\n      /*  await page.getByRole('button', { name: 'My Complaints' }).click();\n        await page.getByRole('button', { name: 'Submit a Complaint', exact: true }).click(); */\n\n      const submitBtn = page.locator('#controllableTabContainer1').getByRole('button', {\n        name: 'Submit a Complaint',\n        exact: true\n      });\n      await submitBtn.scrollIntoViewIfNeeded();\n      await submitBtn.click();\n      await (0, _test.expect)(page.getByRole('heading', {\n        name: 'Create Complaint'\n      })).toBeVisible();\n      await page.getByRole('combobox', {\n        name: 'Entity *'\n      }).click();\n      await page.getByText('Ad Dhahirah Governorate').click();\n      await page.getByRole('combobox', {\n        name: 'Service catalogue *'\n      }).click();\n      await page.getByText('Advertisement License Cancel').click();\n      await page.getByRole('combobox', {\n        name: 'Complaint Type *'\n      }).click();\n      await page.getByText('General compalint').click();\n      await page.getByLabel('Complaint catalogue').selectOption(user.catalogueId);\n      await page.getByRole('combobox', {\n        name: 'Governorate *'\n      }).click();\n      await page.getByText(user.governorate).click();\n      await page.getByRole('combobox', {\n        name: 'Wilayat *'\n      }).click();\n      await page.getByText(user.wilayat).click();\n      await page.getByRole('combobox', {\n        name: 'Village'\n      }).click();\n      await page.getByText(user.village).click();\n      await page.locator('.form-control.mx-textarea-input.mx-textarea-noresize').fill(user.details);\n      await page.getByRole('button', {\n        name: 'Submit'\n      }).click();\n      await page.getByRole('button', {\n        name: 'Yes'\n      }).click();\n      await page.getByRole('button', {\n        name: 'OK'\n      }).click();\n    }"},"identifier":"Complaint submission for nada3","scope":"Complaint submission for nada3","scopes":["Submit complaints for 3 users in English mode"],"custom_metadata":{},"file_name":"tests\\test-4.spec.ts","vc_filepath":"tests\\test-4.spec.ts","location":"tests\\test-4.spec.ts","result":"failed","duration_in_ms":232,"started_at":"2026-01-06T16:16:42.971Z","finished_at":"2026-01-06T16:16:43.203Z","failure":[{"backtrace":["Error: browserType.connect: Error: Automate testing time expired.","    at BrowserType._0x1e894c (C:\\Automation\\TajawobAutomationJenkins\\TajawobAutomation1\\node_modules\\browserstack-node-sdk\\src\\bin\\playwright\\mock-process.js:1:29509)"],"expanded":["message: Error: browserType.connect: Error: Automate testing time expired.","location: undefined"]}],"failure_type":"UnhandledError","failure_reason":null,"retry_of":null,"tags":[],"customRerunParam":{"rerun_name":" -Google Pixel 7:13.0-browserstack-mobile test-4.spec.ts Submit complaints for 3 users in English mode Complaint submission for nada3"},"hooks":[],"product_map":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"lts":false}}}]
+2026-01-06T16:16:48.504Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Starting queued request: POST api/v2/builds/ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c/batch
+2026-01-06T16:16:48.505Z CLI info  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-01-06T16:16:48.505Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Sending request to https://collector-observability.browserstack.com/api/v2/builds/ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c/batch
+2026-01-06T16:16:49.344Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Response from https://collector-observability.browserstack.com/api/v2/builds/ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c/batch: 200 OK
+2026-01-06T16:16:49.345Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Completed queued request: POST api/v2/builds/ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c/batch
+2026-01-06T16:16:49.345Z CLI debug [TEST REPORTING AND ANALYTICS:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Response from undefined: 200
+2026-01-06T16:16:49.346Z CLI debug [testhub:request-queue-handler]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Interval-Queue event successful for events 'CBTSessionCreated':d65acaea-1886-43f6-b980-f7c04e3da178,'LogCreated':undefined,'TestRunFinished':d65acaea-1886-43f6-b980-f7c04e3da178 -- {"success":true}
+2026-01-06T16:16:49.346Z CLI verbose [testhub:request-queue-handler]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Remaining Queue Length - 0
+2026-01-06T16:16:49.347Z CLI debug  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Not Needed to write this in file request:https://collector-observability.browserstack.com/api/v2/builds/ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c/batch {"name":"request:https://collector-observability.browserstack.com/api/v2/builds/ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c/batch","entryType":"measure","startTime":24499.666100025177,"duration":71191.17430019379,"detail":null,"success":true,"failure":null,"worker":34812}
+2026-01-06T18:47:01.749Z CLI debug [sdk:central-token-service]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [start] Current central Auth token is invalid with expiry as : 1767723975 and current time is 1767725220 in start interval
+2026-01-06T18:47:02.469Z CLI debug [sdk:central-token-service]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Regenerating the central auth token from source : interval
+2026-01-06T18:47:02.488Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Starting queued request: POST oauth2/cc/v1/token
+2026-01-06T18:47:02.755Z CLI info  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-01-06T18:47:02.756Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Sending request to https://sdk.browserstack.com/oauth2/cc/v1/token
+2026-01-06T18:47:03.969Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Error response from https://sdk.browserstack.com/oauth2/cc/v1/token: Network Error getaddrinfo ENOTFOUND sdk.browserstack.com
+2026-01-06T18:47:04.016Z CLI error [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Failed queued request: POST oauth2/cc/v1/token getaddrinfo ENOTFOUND sdk.browserstack.com
+2026-01-06T18:47:04.054Z CLI debug [sdk:central-token-service]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [generate] Error while refreshing token : _0x2f566c [RequestError]: getaddrinfo ENOTFOUND sdk.browserstack.com
+    at ClientRequest.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Object.onceWrapper (node:events:632:26)
+    at ClientRequest.emit (node:events:529:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at ClientRequest.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  code: 'ENOTFOUND',
+  timings: {
+    start: 1767725223840,
+    socket: 1767725223869,
+    lookup: 1767725223897,
+    connect: undefined,
+    secureConnect: undefined,
+    upload: undefined,
+    response: undefined,
+    end: undefined,
+    error: 1767725223952,
+    abort: undefined,
+    phases: {
+      wait: 29,
+      dns: 28,
+      tcp: undefined,
+      tls: undefined,
+      request: undefined,
+      firstByte: undefined,
+      download: undefined,
+      total: 112
+    }
+  }
+}
+2026-01-06T18:47:04.062Z CLI debug  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Not Needed to write this in file request:https://sdk.browserstack.com/oauth2/cc/v1/token {"name":"request:https://sdk.browserstack.com/oauth2/cc/v1/token","entryType":"measure","startTime":9109107.89139986,"duration":1236.7711000442505,"detail":null,"success":false,"failure":{"name":"RequestError","code":"ENOTFOUND","timings":{"start":1767725223840,"socket":1767725223869,"lookup":1767725223897,"error":1767725223952,"phases":{"wait":29,"dns":28,"total":112}}},"worker":34812}
+2026-01-06T23:55:20.923Z CLI debug [sdk:central-token-service]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [start] Current central Auth token is invalid with expiry as : 1767723975 and current time is 1767743720 in start interval
+2026-01-06T23:55:20.923Z CLI debug [sdk:central-token-service]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Regenerating the central auth token from source : interval
+2026-01-06T23:55:20.923Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Starting queued request: POST oauth2/cc/v1/token
+2026-01-06T23:55:21.486Z CLI info  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-01-06T23:55:21.486Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Sending request to https://sdk.browserstack.com/oauth2/cc/v1/token
+2026-01-06T23:55:21.563Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Error response from https://sdk.browserstack.com/oauth2/cc/v1/token: Network Error getaddrinfo ENOTFOUND sdk.browserstack.com
+2026-01-06T23:55:22.357Z CLI error [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Failed queued request: POST oauth2/cc/v1/token getaddrinfo ENOTFOUND sdk.browserstack.com
+2026-01-06T23:55:22.358Z CLI debug [sdk:central-token-service]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [generate] Error while refreshing token : _0x2f566c [RequestError]: getaddrinfo ENOTFOUND sdk.browserstack.com
+    at ClientRequest.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Object.onceWrapper (node:events:632:26)
+    at ClientRequest.emit (node:events:529:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at ClientRequest.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  code: 'ENOTFOUND',
+  timings: {
+    start: 1767743721545,
+    socket: 1767743721545,
+    lookup: 1767743721553,
+    connect: undefined,
+    secureConnect: undefined,
+    upload: undefined,
+    response: undefined,
+    end: undefined,
+    error: 1767743721553,
+    abort: undefined,
+    phases: {
+      wait: 0,
+      dns: 8,
+      tcp: undefined,
+      tls: undefined,
+      request: undefined,
+      firstByte: undefined,
+      download: undefined,
+      total: 8
+    }
+  }
+}
+2026-01-06T23:55:22.358Z CLI debug  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Not Needed to write this in file request:https://sdk.browserstack.com/oauth2/cc/v1/token {"name":"request:https://sdk.browserstack.com/oauth2/cc/v1/token","entryType":"measure","startTime":9109107.89139986,"duration":18498801.949800014,"detail":null,"success":false,"failure":{"name":"RequestError","code":"ENOTFOUND","timings":{"start":1767743721545,"socket":1767743721545,"lookup":1767743721553,"error":1767743721553,"phases":{"wait":0,"dns":8,"total":8}}},"worker":34812}
+2026-01-07T05:03:53.131Z CLI debug [sdk:central-token-service]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [start] Current central Auth token is invalid with expiry as : 1767723975 and current time is 1767762233 in start interval
+2026-01-07T05:03:53.132Z CLI debug [sdk:central-token-service]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Regenerating the central auth token from source : interval
+2026-01-07T05:03:53.132Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Starting queued request: POST oauth2/cc/v1/token
+2026-01-07T05:03:53.132Z CLI info  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-01-07T05:03:53.134Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Sending request to https://sdk.browserstack.com/oauth2/cc/v1/token
+2026-01-07T05:03:53.656Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Error response from https://sdk.browserstack.com/oauth2/cc/v1/token: Network Error getaddrinfo ENOTFOUND sdk.browserstack.com
+2026-01-07T05:03:53.657Z CLI error [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Failed queued request: POST oauth2/cc/v1/token getaddrinfo ENOTFOUND sdk.browserstack.com
+2026-01-07T05:03:54.164Z CLI debug [sdk:central-token-service]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [generate] Error while refreshing token : _0x2f566c [RequestError]: getaddrinfo ENOTFOUND sdk.browserstack.com
+    at ClientRequest.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Object.onceWrapper (node:events:632:26)
+    at ClientRequest.emit (node:events:529:35)
+    at ClientRequest.emit (node:domain:489:12)
+    at ClientRequest.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  code: 'ENOTFOUND',
+  timings: {
+    start: 1767762233654,
+    socket: 1767762233654,
+    lookup: 1767762233656,
+    connect: undefined,
+    secureConnect: undefined,
+    upload: undefined,
+    response: undefined,
+    end: undefined,
+    error: 1767762233656,
+    abort: undefined,
+    phases: {
+      wait: 0,
+      dns: 2,
+      tcp: undefined,
+      tls: undefined,
+      request: undefined,
+      firstByte: undefined,
+      download: undefined,
+      total: 2
+    }
+  }
+}
+2026-01-07T05:03:54.164Z CLI debug  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Not Needed to write this in file request:https://sdk.browserstack.com/oauth2/cc/v1/token {"name":"request:https://sdk.browserstack.com/oauth2/cc/v1/token","entryType":"measure","startTime":9109107.89139986,"duration":37018281.10220003,"detail":null,"success":false,"failure":{"name":"RequestError","code":"ENOTFOUND","timings":{"start":1767762233654,"socket":1767762233654,"lookup":1767762233656,"error":1767762233656,"phases":{"wait":0,"dns":2,"total":2}}},"worker":34812}
+2026-01-07T05:15:53.195Z CLI debug [sdk:central-token-service]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [start] Current central Auth token is invalid with expiry as : 1767723975 and current time is 1767762953 in start interval
+2026-01-07T05:15:53.224Z CLI debug [sdk:central-token-service]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Regenerating the central auth token from source : interval
+2026-01-07T05:15:53.228Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Starting queued request: POST oauth2/cc/v1/token
+2026-01-07T05:15:53.230Z CLI info  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-01-07T05:15:53.231Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Sending request to https://sdk.browserstack.com/oauth2/cc/v1/token
+2026-01-07T05:15:54.502Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Response from https://sdk.browserstack.com/oauth2/cc/v1/token: 200 OK
+2026-01-07T05:15:54.508Z CLI debug [core:http]  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Completed queued request: POST oauth2/cc/v1/token
+2026-01-07T05:15:54.510Z CLI debug  [nadaalbahri_uRDG1r]  [ulvu1z522bayzy4px7ndgh1nxhkcf7sz28uqmx6c]  [0ae4c8d0-6c9f-42b8-b0ec-eba2528c28e8]  Not Needed to write this in file request:https://sdk.browserstack.com/oauth2/cc/v1/token {"name":"request:https://sdk.browserstack.com/oauth2/cc/v1/token","entryType":"measure","startTime":9109107.89139986,"duration":37739131.37020016,"detail":null,"success":true,"failure":null,"worker":34812}

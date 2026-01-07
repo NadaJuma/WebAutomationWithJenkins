@@ -19,7 +19,7 @@ pipeline {
             steps {
                 bat 'node -v'
                 bat 'npm -v'
-                bat 'npm install'
+                bat 'npm ci'
             }
         }
 
