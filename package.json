@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
+    "test:e2e:shard": "playwright test",
     "test:bs": "browserstack-node-sdk playwright test --config=playwright.config.ts"
   },
   "keywords": [],
@@ -13,6 +14,7 @@
   "devDependencies": {
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.9.1",
-    "browserstack-node-sdk": "^1.48.1"
+    "browserstack-node-sdk": "^1.48.1",
+    "dotenv": "^17.2.4"
   }
 }

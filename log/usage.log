@@ -24294,3 +24294,71 @@ for call at
 2026-01-07 10:31:28 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
 2026-01-07 10:31:28 - [32minfo[39m: Visit https://automation.browserstack.com/builds/ulu9vqrnm4a1mvieob7rroflobfilvtmnus69nis to view build report, insights, and many more debugging information all at one place!
 
+2026-01-07 13:56:36 - [32minfo[39m: Reading configs from C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\browserstack.yml
+2026-01-07 13:56:36 - [32minfo[39m: Log Directory has been set to C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\log
+2026-01-07 13:56:36 - [32minfo[39m: Log Directory has been set to C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\log
+2026-01-07 13:56:36 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=playwright-browserstack-sdk.config.ts
+2026-01-07 13:56:36 - [32minfo[39m: SDK run started with id: 75042851-c692-43a6-99ca-9adfdbfb6147
+2026-01-07 13:56:36 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-01-07 13:56:36 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=playwright-browserstack-sdk.config.ts
+2026-01-07 13:56:36 - [32minfo[39m: SDK run started with id: 75042851-c692-43a6-99ca-9adfdbfb6147
+2026-01-07 13:56:36 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-01-07 13:56:40 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-01-07 13:56:40 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-01-07 13:56:40 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\nadan\.browserstack\cli\binary-win-x64.exe
+2026-01-07 13:56:40 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\nadan\.browserstack\cli\binary-win-x64.exe
+2026-01-07 13:56:45 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\nadan\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-01-07 13:56:45 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\nadan\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-01-07 13:56:46 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"2ea54581-f4de-4b68-b006-f8d5b3e2ef13","listen":"127.0.0.1:5400","port":"5400"}
+2026-01-07 13:56:46 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"2ea54581-f4de-4b68-b006-f8d5b3e2ef13","listen":"127.0.0.1:5400","port":"5400"}
+2026-01-07 13:56:46 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-07 13:56:46 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 2ea54581-f4de-4b68-b006-f8d5b3e2ef13 and listen address: 127.0.0.1:5400
+2026-01-07 13:56:46 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-01-07 13:56:46 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=playwright-browserstack-sdk.config.ts"], parsedConfig=[]
+2026-01-07 13:56:46 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-07 13:56:46 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 2ea54581-f4de-4b68-b006-f8d5b3e2ef13 and listen address: 127.0.0.1:5400
+2026-01-07 13:56:46 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-01-07 13:56:46 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=playwright-browserstack-sdk.config.ts"], parsedConfig=[]
+2026-01-07 13:56:49 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-01-07 13:56:49 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2026-01-07 13:56:49 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-07 13:56:49 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=2ea54581-f4de-4b68-b006-f8d5b3e2ef13
+2026-01-07 13:56:49 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-07 13:56:49 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-07 13:56:49 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=playwright-browserstack-sdk.config.ts"]
+2026-01-07 13:56:49 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=2ea54581-f4de-4b68-b006-f8d5b3e2ef13
+2026-01-07 13:56:49 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-07 13:56:49 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-07 13:56:49 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=playwright-browserstack-sdk.config.ts"]
+2026-01-07 13:56:49 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-07 13:57:05 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 2ea54581-f4de-4b68-b006-f8d5b3e2ef13
+2026-01-07 13:57:05 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-01-07 13:57:05 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-01-07 13:57:07 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2026-01-07 13:57:07 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2026-01-07 13:57:07 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=2ea54581-f4de-4b68-b006-f8d5b3e2ef13
+2026-01-07 13:57:07 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2026-01-07 13:57:07 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2026-01-07 13:57:07 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-01-07 13:57:07 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2026-01-07 13:57:07 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-01-07 13:57:07 - [32minfo[39m: [GrpcClient] Stopping bin session
+2026-01-07 13:57:13 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2026-01-07 13:57:13 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2026-01-07 13:57:13 - [32minfo[39m: stop: stopBinSession build_link=null hashed_id=null o11y_uuid=fxftyr3hsmlkdqkxkeu2k8487mmses0ty98tiqny
+2026-01-07 13:57:13 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-01-07 13:57:13 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-01-07 13:57:13 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2026-01-07 13:57:13 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2026-01-07 13:57:18 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-01-07 13:57:18 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2026-01-07 13:57:19 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2026-01-07 13:57:19 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2026-01-07 13:57:19 - [32minfo[39m: Visit https://automation.browserstack.com/builds/fxftyr3hsmlkdqkxkeu2k8487mmses0ty98tiqny to view build report, insights, and many more debugging information all at one place!
+
+2026-01-07 13:57:20 - [32minfo[39m: SDK run ended for id: 75042851-c692-43a6-99ca-9adfdbfb6147, testhub id: fxftyr3hsmlkdqkxkeu2k8487mmses0ty98tiqny
+2026-01-07 13:57:20 - [32minfo[39m: SDK run ended for id: 75042851-c692-43a6-99ca-9adfdbfb6147, testhub id: fxftyr3hsmlkdqkxkeu2k8487mmses0ty98tiqny
+2026-01-07 13:57:26 - [32minfo[39m: Deleting C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\playwright-browserstack-sdk.config.ts
+2026-01-07 13:57:26 - [32minfo[39m: Deleting C:\Automation\TajawobAutomationJenkins\TajawobAutomation1\playwright-browserstack-sdk.config.ts
+2026-01-07 13:57:27 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-01-07 13:57:27 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop

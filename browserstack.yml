@@ -1,6 +1,9 @@
 # ---- Legacy schema (works with runners that expect camelCase) ----
-userName: "nadaalbahri_uRDG1r"
-accessKey: "NPHxeRJr4p6BBdvb1p5j"
+#userName: "nadaalbahri_uRDG1r"
+#accessKey: "NPHxeRJr4p6BBdvb1p5j"
+
+userName: "nadaalbahri_jhVnsL"
+accessKey: "Rv4BoMpTknZXAhGppv2x"
 
 framework: "playwright"
 
