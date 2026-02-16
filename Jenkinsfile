@@ -2,7 +2,8 @@ pipeline {
     agent any
   // run daily (Jenkins uses server timezone)
     triggers {
-        cron('0 22 * * *')   // daily at 10:00 PM
+       cron('30 11 * * *')
+  // daily at 11:30 AM
     }
 
   environment {
