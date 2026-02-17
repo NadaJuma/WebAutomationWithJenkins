@@ -1,9 +1,9 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Tajawob - Reports', () => {
+test.describe('Tajawob - Reports @smoke', () => {
   test('Submit a Report (English UI)', async ({ page }) => {
-    const username = process.env.TAJAWOB_USER!;
-    const password = process.env.TAJAWOB_PASS!;
+    const username = process.env.TAJAWOB_USER3!;
+    const password = process.env.TAJAWOB_PASS3!;
 
     // -----------------------
     // Arrange: open app & login

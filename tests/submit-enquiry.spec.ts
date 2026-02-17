@@ -1,13 +1,13 @@
 import { test, expect } from "@playwright/test";
 
-test.describe("Tajawob - Submit Enquiry", () => {
+test.describe("Tajawob - Submit Enquiry @smoke", () => {
   test("Submit an enquiry successfully @regression @critical", async ({ page }) => {
     const baseHome = "https://stg.tajawob.om/p/home";
     const baseApp = "https://stg.tajawob.om/";
 
     // Use env vars (recommended). Fallbacks removed for security best practice.
-    const username = process.env.TAJAWOB_USER;
-    const password = process.env.TAJAWOB_PASS;
+    const username = process.env.TAJAWOB_USER2;
+    const password = process.env.TAJAWOB_PASS2;
 
     if (!username || !password) {
       throw new Error("Missing env vars: TAJAWOB_USER and/or TAJAWOB_PASS");

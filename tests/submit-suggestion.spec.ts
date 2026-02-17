@@ -1,10 +1,10 @@
 import { test, expect } from '@playwright/test';
 import path from 'path';
 
-test.describe('Tajawob - Suggestions', () => {
+test.describe('Tajawob - Suggestions @smoke', () => {
   test('Submit a suggestion', async ({ page }) => {
-    const username = process.env.TAJAWOB_USER!;
-    const password = process.env.TAJAWOB_PASS!;
+    const username = process.env.TAJAWOB_USER4!;
+    const password = process.env.TAJAWOB_PASS4!;
 
     // File path for upload
     const filePath = path.resolve(
