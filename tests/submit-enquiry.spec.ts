@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Tajawob - Submit Enquiry", () => {
-  test("Submit an enquiry successfully  @smoke", async ({ page }) => {
+  test("Submit an enquiry successfully ", async ({ page }) => {
     const baseHome = "https://stg.tajawob.om/p/home";
     const baseApp = "https://stg.tajawob.om/";
 

@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import path from 'path';
 
 test.describe('Tajawob - Suggestions', () => {
-  test('Submit a suggestion @smoke', async ({ page }) => {
+  test('Submit a suggestion', async ({ page }) => {
     const username = process.env.TAJAWOB_USER4!;
     const password = process.env.TAJAWOB_PASS4!;
 

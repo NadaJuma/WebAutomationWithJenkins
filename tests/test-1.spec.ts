@@ -1,0 +1,36 @@
+import { test, expect } from '@playwright/test';
+
+test('test', async ({ page }) => {
+  await page.goto('https://stg.tajawob.om/p/home');
+  await page.getByRole('button', { name: 'Login OLD' }).click();
+  await page.getByRole('textbox', { name: 'Username' }).click();
+  await page.getByRole('textbox', { name: 'Username' }).fill('nada1');
+  await page.getByRole('textbox', { name: 'Password' }).click();
+  await page.getByRole('textbox', { name: 'Password' }).fill('V*!m@KB518');
+  await page.getByRole('button', { name: 'Sign in', exact: true }).click();
+  await page.getByRole('button', { name: 'My Complaints' }).click();
+  await page.getByRole('button', { name: 'Submit a Complaint', exact: true }).click();
+  await page.getByRole('combobox', { name: 'Entity *' }).click();
+  await page.getByText('Ash Sharqiyah South').click();
+  await page.getByRole('combobox', { name: 'Service catalogue *' }).click();
+  await page.getByRole('option', { name: 'Renewal of lease contract' }).click();
+  await page.getByRole('combobox', { name: 'Complaint Type *' }).click();
+  await page.getByText('General compalint').click();
+  await page.getByLabel('Complaint catalogue').selectOption('155092712167572628');
+  await page.getByRole('combobox', { name: 'Governorate *' }).click();
+  await page.getByText('Ash Sharqiyah North').click();
+  await page.getByRole('combobox', { name: 'Wilayat *' }).click();
+  await page.getByRole('option', { name: 'Ibra' }).click();
+  await page.getByRole('combobox', { name: 'Village' }).click();
+  await page.getByRole('option', { name: 'Al-Haymah' }).click();
+  await page.getByRole('textbox', { name: 'The field allows a maximum of' }).click();
+  await page.getByRole('textbox', { name: 'The field allows a maximum of' }).fill('hghfhf');
+  await page.getByRole('textbox', { name: 'Search Google Maps' }).click();
+  await page.getByRole('textbox', { name: 'Search Google Maps' }).fill('ibra');
+  await page.getByText('Oman').click();
+  await page.getByRole('button', { name: 'Submit' }).click();
+  await page.getByRole('button', { name: 'Yes' }).click();
+  await page.getByRole('button', { name: 'OK' }).click();
+  await page.getByRole('button', { name: 'My Complaints' }).click();
+  await page.getByRole('button', { name: 'My Complaints' }).click();
+});

@@ -19,10 +19,10 @@ testObservability: true
 # browserstack.yml (relevant part)
 platforms:
 # macOS + Chrome
-  - os: "OS X"
-    osVersion: "Big Sur"
-    browser: "chrome"
-    browserVersion: "latest"
+  # - os: "OS X"
+  #   osVersion: "Big Sur"
+  #   browser: "chrome"
+  #   browserVersion: "latest"
 
   # Windows + Edge
   - os: "Windows"
@@ -31,10 +31,10 @@ platforms:
     browserVersion: "latest"
 
   # Playwright WebKit (desktop engine)
-  - os: "OS X"
-    osVersion: "Big Sur"
-    browser: "playwright-webkit"
-    browserVersion: "latest"
+  # - os: "OS X"
+  #   osVersion: "Big Sur"
+  #   browser: "playwright-webkit"
+  #   browserVersion: "latest"
 
   # --- Real iOS device (iPhone 14 ) ---
   # - deviceName: "iPhone 14"
