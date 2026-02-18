@@ -57,11 +57,15 @@ export default defineConfig({
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
-    },
- { name: 'msedge',  use: { ...devices['Desktop Edge'] } },
- // --- Mobile viewports (realistic device profiles) ---
-    { name: 'iphone-15-pro', use: { ...devices['iPhone 15 Pro'] } },
-     { name: 'pixel-7',       use: { ...devices['Pixel 7'] } },
+    }
+    
+//     ,
+//  { name: 'msedge',  use: { ...devices['Desktop Edge'] } },
+//  // --- Mobile viewports (realistic device profiles) ---
+//     { name: 'iphone-15-pro', use: { ...devices['iPhone 15 Pro'] } },
+//      { name: 'pixel-7',       use: { ...devices['Pixel 7'] } },
+
+
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
