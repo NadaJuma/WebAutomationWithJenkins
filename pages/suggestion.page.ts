@@ -5,7 +5,14 @@ export class SuggestionPage {
 
   async open() {
     await this.page.getByRole('button', { name: 'Submit a Suggestion', exact: true }).click();
-    await expect(this.page.getByRole('combobox', { name: 'Entity *' })).toBeVisible();
+
+    // Proof the Create Suggestion screen is open
+    await expect(
+      this.page.getByRole('heading', { name: 'Create Suggestion', exact: true })
+    ).toBeVisible({ timeout: 30000 });
+
+    // Wait for the form control (Entity) to be ready
+    await expect(this.page.getByRole('combobox', { name: 'Entity *' })).toBeVisible({ timeout: 20000 });
   }
 
   // Entity: search text + selected option text (because option != search)
@@ -14,70 +21,83 @@ export class SuggestionPage {
     await combo.click();
     await combo.fill(search);
 
-    const opt = this.page.getByText(option, { exact: false });
-    await opt.waitFor({ state: 'visible', timeout: 6000 });
+    const opt = this.page.getByText(option, { exact: false }).first();
+    await opt.waitFor({ state: 'visible', timeout: 10000 });
     await opt.click();
   }
 
-  // ✅ Generic safe selector for dropdowns
-  private async trySelectOption(comboLabel: string, optionText: string, timeout = 4000): Promise<boolean> {
+  // Generic safe selector for dropdowns
+  private async trySelectOption(comboLabel: string, optionText: string, timeout = 6000): Promise<boolean> {
     const combo = this.page.getByRole('combobox', { name: comboLabel });
 
-    await combo.click();
-
-    // some combos allow typing to filter; if not supported it usually doesn't break
-    await combo.fill(optionText).catch(() => {});
-
-    const opt = this.page.getByText(optionText, { exact: false });
-
     try {
-      await opt.first().waitFor({ state: 'visible', timeout });
-      await opt.first().click();
+      await combo.waitFor({ state: 'visible', timeout: 15000 });
+      await combo.click();
+
+      // Some combos allow typing; if not supported, ignore
+      await combo.fill(optionText).catch(() => {});
+
+      const opt = this.page.getByText(optionText, { exact: false }).first();
+      await opt.waitFor({ state: 'visible', timeout });
+      await opt.click();
+
       return true;
     } catch {
-      // close dropdown if it stays open
       await this.page.keyboard.press('Escape').catch(() => {});
       return false;
     }
   }
 
-  // ✅ Service catalogue: list takes time
   async trySelectService(value: string): Promise<boolean> {
-    // sometimes service list depends on entity - you may want to ensure entity selected first
-    return this.trySelectOption('Service catalogue *', value, 7000);
+    return this.trySelectOption('Service catalogue *', value, 10000);
   }
 
   async trySelectGovernorate(value: string): Promise<boolean> {
-    return this.trySelectOption('Governorate *', value, 5000);
+    return this.trySelectOption('Governorate *', value, 8000);
   }
 
   async trySelectWilayat(value: string): Promise<boolean> {
-    return this.trySelectOption('Wilayat *', value, 5000);
+    return this.trySelectOption('Wilayat *', value, 8000);
   }
 
   async trySelectVillage(value: string): Promise<boolean> {
-    // Village can be optional; if you pass empty, treat as "skip"
     if (!value) return true;
-    return this.trySelectOption('Village', value, 5000);
+    return this.trySelectOption('Village', value, 8000);
   }
 
   async fillDescription(text: string) {
     await this.page.getByRole('textbox', { name: /maximum/i }).fill(text);
   }
 
-  // ✅ Submit then click Yes ONLY if popup appears
-  async submitAndConfirmYes() {
+  /**
+   * Submit and confirm Yes (if confirmation popup appears),
+   * then wait for either Success OR Validation.
+   */
+  async submitConfirmAndWaitForResult(): Promise<'success' | 'validation' | 'unknown'> {
     await this.page.getByRole('button', { name: 'Submit' }).click();
 
+    // Wait briefly for confirmation popup (if it appears)
     const yesBtn = this.page.getByRole('button', { name: 'Yes' });
-    const yesVisible = await yesBtn.isVisible().catch(() => false);
+    const yesAppeared = await yesBtn.waitFor({ state: 'visible', timeout: 3000 }).then(() => true).catch(() => false);
 
-    if (yesVisible) {
+    if (yesAppeared) {
       await yesBtn.click();
     }
+
+    // Now wait for one of two outcomes
+    const okBtn = this.page.getByRole('button', { name: 'OK' });
+    const validation = this.page.locator('.mx-validation-message');
+
+    await Promise.race([
+      okBtn.waitFor({ state: 'visible', timeout: 15000 }).catch(() => {}),
+      validation.first().waitFor({ state: 'visible', timeout: 15000 }).catch(() => {}),
+    ]);
+
+    if (await okBtn.isVisible().catch(() => false)) return 'success';
+    if ((await validation.count().catch(() => 0)) > 0) return 'validation';
+    return 'unknown';
   }
 
-  // ✅ Only for success flow
   async clickOKIfVisible() {
     const okBtn = this.page.getByRole('button', { name: 'OK' });
     if (await okBtn.isVisible().catch(() => false)) {
@@ -85,9 +105,16 @@ export class SuggestionPage {
     }
   }
 
-  // ✅ Validation check (Required)
+  /**
+   * Validation check: confirm at least one required message exists
+   * and contains "Required" (case-insensitive).
+   */
   async expectRequiredValidation() {
-    // keep it flexible: sometimes messages are different per field
-    await expect(this.page.locator('.mx-validation-message')).toContainText(/Required/i);
+    const validation = this.page.locator('.mx-validation-message');
+    const count = await validation.count();
+
+    expect(count, 'Expected validation messages but none were found').toBeGreaterThan(0);
+
+    await expect(validation.first()).toContainText(/Required/i);
   }
 }
